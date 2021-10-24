@@ -23,5 +23,5 @@ jobs:
       - name: Build and push docker image
         run: |
           docker build . -t docker.pkg.github.com/ameixatech/docker-frontend/nginx:${{ github.sha }}
-          docker push docker.pkg.github.com/ameixatech/docker-frontend/nginx:${{ github.sha }}`
+          docker push docker.pkg.github.com/ameixatech/docker-frontend/nginx:${{ github.sha }}
           
